@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ii" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:text="你见，或者不见我\n
+我就在那里\n不悲不喜\n\n你念，或者不念我\n情就在那里\n不来不去\n\n你爱或者不爱我\n爱就在那里\n不增不减\n\n你跟，或者不跟我\n我的手就在你的手里\n不舍不弃\n\n来我怀里\n或者\n让我住进你的心里\n默然相爱\n寂静喜欢"
+                android:textColor="#555" />
+        </ScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/detail_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" >
+
+        <ImageButton
+            android:id="@+id/detail_back_view"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/item"
+            android:src="@drawable/back"
+            android:text="Button" />
+    </FrameLayout>
+
+</FrameLayout>
